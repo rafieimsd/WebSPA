@@ -1,5 +1,6 @@
 package net.seleucus.wsp.client;
 
+
 import net.seleucus.wsp.main.WSGestalt;
 import net.seleucus.wsp.main.WSVersion;
 import net.seleucus.wsp.main.WebSpa;
