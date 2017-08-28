@@ -1,9 +1,9 @@
-package net.seleucus.wsp.client;
+package main.java.net.seleucus.wsp.client;
 
 
-import net.seleucus.wsp.main.WSGestalt;
-import net.seleucus.wsp.main.WSVersion;
-import net.seleucus.wsp.main.WebSpa;
+import main.java.net.seleucus.wsp.main.WSGestalt;
+import main.java.net.seleucus.wsp.main.WSVersion;
+import main.java.net.seleucus.wsp.main.WebSpa;
 
 public class WSClient extends WSGestalt {
 
@@ -20,11 +20,11 @@ public class WSClient extends WSGestalt {
 	public void runConsole() {
 		
 		println("");
-		println("WebSpa - Single HTTP/S Request Authorisation");
+		println("WebSpa - Single HTTP/S Request Authorisation- test amir");
 		println("version " + WSVersion.getValue() + " (webspa@seleucus.net)"); 		
 		println("");
 
-		String host = readLineRequired("Host [e.g. https://localhost/]");
+		String host = readLineRequired("test-amir Host [e.g. https://localhost/]");
 		CharSequence password = readPasswordRequired("Your pass-phrase for that host");
 		int action = readLineRequiredInt("The action number", 0, 9);
 		
