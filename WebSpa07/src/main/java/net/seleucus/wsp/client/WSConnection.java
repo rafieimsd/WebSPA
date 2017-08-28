@@ -1,4 +1,4 @@
-package net.seleucus.wsp.client;
+package main.java.net.seleucus.wsp.client;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;
@@ -24,7 +24,7 @@ import org.apache.commons.codec.digest.DigestUtils;
 
 public class WSConnection {
 	
-	protected static String[] ACTION_CAN_BE_TAKEN = {
+	public static String[] ACTION_CAN_BE_TAKEN = {
 		"...",
 		"The URL is neither HTTP nor HTTPS: No action will be taken",
 		"Malformed URL: No action will be taken", 

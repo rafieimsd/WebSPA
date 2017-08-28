@@ -1,10 +1,10 @@
-package net.seleucus.wsp.server;
+package main.java.net.seleucus.wsp.server;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.seleucus.wsp.config.WSConfiguration;
-import net.seleucus.wsp.db.WSDatabase;
+import main.java.net.seleucus.wsp.config.WSConfiguration;
+import main.java.net.seleucus.wsp.db.WSDatabase;
 
 import org.apache.commons.io.input.Tailer;
 import org.apache.commons.io.input.TailerListenerAdapter;

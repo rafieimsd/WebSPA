@@ -1,4 +1,4 @@
-package net.seleucus.wsp.crypto;
+package test.java.net.seleucus.wsp.crypto;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertTrue;
@@ -8,6 +8,7 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.security.SecureRandom;
 import java.util.Arrays;
+import main.java.net.seleucus.wsp.crypto.ActionNumberCrypto;
 
 import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.lang3.RandomStringUtils;

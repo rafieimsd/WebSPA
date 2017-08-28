@@ -1,5 +1,6 @@
-package net.seleucus.wsp.util;
+package test.java.net.seleucus.wsp.util;
 
+import main.java.net.seleucus.wsp.crypto.WSEncoder;
 import static org.junit.Assert.*;
 
 import org.apache.commons.codec.DecoderException;

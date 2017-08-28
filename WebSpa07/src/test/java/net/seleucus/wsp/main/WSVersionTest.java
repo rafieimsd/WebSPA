@@ -1,4 +1,4 @@
-package net.seleucus.wsp.main;
+package test.java.net.seleucus.wsp.main;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -7,6 +7,8 @@ import static org.junit.Assert.assertTrue;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 import java.sql.SQLException;
+import main.java.net.seleucus.wsp.main.WSVersion;
+import main.java.net.seleucus.wsp.main.WebSpa;
 
 import org.junit.After;
 import org.junit.Before;

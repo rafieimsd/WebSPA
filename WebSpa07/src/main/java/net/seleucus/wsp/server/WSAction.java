@@ -1,4 +1,4 @@
-package net.seleucus.wsp.server;
+package main.java.net.seleucus.wsp.server;
 
 import java.io.BufferedReader;
 import java.io.IOException;

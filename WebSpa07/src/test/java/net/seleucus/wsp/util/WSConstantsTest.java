@@ -1,5 +1,6 @@
-package net.seleucus.wsp.util;
+package test.java.net.seleucus.wsp.util;
 
+import main.java.net.seleucus.wsp.util.WSConstants;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;

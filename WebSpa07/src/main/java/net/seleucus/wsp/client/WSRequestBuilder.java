@@ -1,6 +1,6 @@
-package net.seleucus.wsp.client;
+package main.java.net.seleucus.wsp.client;
 
-import net.seleucus.wsp.crypto.WebSpaEncoder;
+import main.java.net.seleucus.wsp.crypto.WebSpaEncoder;
 
 public class WSRequestBuilder {
 	

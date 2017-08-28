@@ -1,15 +1,15 @@
-package net.seleucus.wsp.server;
+package main.java.net.seleucus.wsp.server;
 
 import java.io.File;
 import java.sql.SQLException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-import net.seleucus.wsp.config.WSConfiguration;
-import net.seleucus.wsp.db.WSDatabase;
-import net.seleucus.wsp.main.WSGestalt;
-import net.seleucus.wsp.main.WSVersion;
-import net.seleucus.wsp.main.WebSpa;
+import main.java.net.seleucus.wsp.config.WSConfiguration;
+import main.java.net.seleucus.wsp.db.WSDatabase;
+import main.java.net.seleucus.wsp.main.WSGestalt;
+import main.java.net.seleucus.wsp.main.WSVersion;
+import main.java.net.seleucus.wsp.main.WebSpa;
 
 import org.apache.commons.io.input.Tailer;
 

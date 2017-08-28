@@ -1,8 +1,9 @@
-package net.seleucus.wsp.db;
+package test.java.net.seleucus.wsp.db;
 
 import static org.junit.Assert.*;
 
 import java.nio.CharBuffer;
+import main.java.net.seleucus.wsp.db.WSDatabase;
 
 import org.junit.After;
 import org.junit.Before;

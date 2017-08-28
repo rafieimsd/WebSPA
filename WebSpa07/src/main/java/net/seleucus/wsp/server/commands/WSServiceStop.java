@@ -1,6 +1,6 @@
-package net.seleucus.wsp.server.commands;
+package main.java.net.seleucus.wsp.server.commands;
 
-import net.seleucus.wsp.server.WSServer;
+import main.java.net.seleucus.wsp.server.WSServer;
 
 public class WSServiceStop extends WSCommandOption {
 
@@ -32,7 +32,7 @@ public class WSServiceStop extends WSCommandOption {
 	} // handle method
 
 	@Override
-	protected boolean isValid(String cmd) {
+	public boolean isValid(String cmd) {
 		
 		boolean valid = false;
 		

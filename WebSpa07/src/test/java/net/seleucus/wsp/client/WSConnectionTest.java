@@ -1,5 +1,6 @@
-package net.seleucus.wsp.client;
+package test.java.net.seleucus.wsp.client;
 
+import main.java.net.seleucus.wsp.client.WSConnection;
 import static org.junit.Assert.*;
 
 import org.junit.Test;

@@ -1,4 +1,4 @@
-package net.seleucus.wsp.db;
+package main.java.net.seleucus.wsp.db;
 
 import java.nio.CharBuffer;
 import java.sql.Connection;
@@ -7,7 +7,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import net.seleucus.wsp.crypto.WebSpaEncoder;
+import main.java.net.seleucus.wsp.crypto.WebSpaEncoder;
 
 public class WSPassPhrases {
 

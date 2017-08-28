@@ -1,4 +1,4 @@
-package net.seleucus.wsp.util;
+package main.java.net.seleucus.wsp.util;
 
 
 public class WSConstants {

@@ -1,6 +1,6 @@
-package net.seleucus.wsp.server.commands;
+package main.java.net.seleucus.wsp.server.commands;
 
-import net.seleucus.wsp.server.WSServer;
+import main.java.net.seleucus.wsp.server.WSServer;
 
 public class WSPassPhraseShow extends WSCommandOption {
 

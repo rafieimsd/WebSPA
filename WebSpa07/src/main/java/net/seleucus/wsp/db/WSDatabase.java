@@ -1,4 +1,4 @@
-package net.seleucus.wsp.db;
+package main.java.net.seleucus.wsp.db;
 
 import java.io.File;
 import java.io.IOException;
@@ -13,7 +13,7 @@ import org.apache.commons.io.FileUtils;
 
 public class WSDatabase {
 
-	protected static final String DB_PATH = "webspa-db";
+	public static final String DB_PATH = "webspa-db";
 
 	private Connection wsConnection;
 

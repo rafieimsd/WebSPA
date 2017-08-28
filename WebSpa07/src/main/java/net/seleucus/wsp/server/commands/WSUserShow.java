@@ -1,6 +1,6 @@
-package net.seleucus.wsp.server.commands;
+package main.java.net.seleucus.wsp.server.commands;
 
-import net.seleucus.wsp.server.WSServer;
+import main.java.net.seleucus.wsp.server.WSServer;
 
 public class WSUserShow extends WSCommandOption {
 
@@ -31,7 +31,7 @@ public class WSUserShow extends WSCommandOption {
 	} // handle method
 
 	@Override
-	protected boolean isValid(final String cmd) {
+	public boolean isValid(final String cmd) {
 		
 		boolean valid = false;
 		

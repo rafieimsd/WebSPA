@@ -1,8 +1,8 @@
-package net.seleucus.wsp.crypto;
+package test.java.net.seleucus.wsp.crypto;
 
 import static org.junit.Assert.*;
 
-import net.seleucus.wsp.crypto.WSEncoder;
+import main.java.net.seleucus.wsp.crypto.WSEncoder;
 
 import org.apache.commons.codec.DecoderException;
 import org.apache.commons.codec.binary.Hex;

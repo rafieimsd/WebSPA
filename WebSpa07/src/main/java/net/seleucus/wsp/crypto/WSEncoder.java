@@ -1,4 +1,4 @@
-package net.seleucus.wsp.crypto;
+package main.java.net.seleucus.wsp.crypto;
 
 import org.apache.commons.codec.DecoderException;
 import org.apache.commons.codec.binary.Base64;

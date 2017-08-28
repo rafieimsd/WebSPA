@@ -1,4 +1,4 @@
-package net.seleucus.wsp.config;
+package test.java.net.seleucus.wsp.config;
 
 import static org.junit.Assert.*;
 
@@ -8,8 +8,9 @@ import java.io.IOException;
 import java.net.URISyntaxException;
 import java.net.URL;
 import java.util.Properties;
+import main.java.net.seleucus.wsp.config.WSConfiguration;
 
-import net.seleucus.wsp.util.WSConstants;
+import main.java.net.seleucus.wsp.util.WSConstants;
 
 import org.junit.After;
 import org.junit.Before;

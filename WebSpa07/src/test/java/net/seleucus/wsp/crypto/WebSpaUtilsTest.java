@@ -1,5 +1,6 @@
-package net.seleucus.wsp.crypto;
+package test.java.net.seleucus.wsp.crypto;
 
+import main.java.net.seleucus.wsp.crypto.WebSpaUtils;
 import static org.junit.Assert.*;
 
 import org.junit.Test;

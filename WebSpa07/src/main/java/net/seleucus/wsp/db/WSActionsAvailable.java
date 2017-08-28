@@ -1,4 +1,4 @@
-package net.seleucus.wsp.db;
+package main.java.net.seleucus.wsp.db;
 
 import java.nio.CharBuffer;
 import java.sql.Connection;
@@ -9,7 +9,7 @@ import java.sql.Statement;
 
 import org.apache.commons.lang3.StringUtils;
 
-import net.seleucus.wsp.crypto.WebSpaEncoder;
+import main.java.net.seleucus.wsp.crypto.WebSpaEncoder;
 
 public class WSActionsAvailable {
 

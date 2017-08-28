@@ -1,4 +1,4 @@
-package net.seleucus.wsp.db;
+package main.java.net.seleucus.wsp.db;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

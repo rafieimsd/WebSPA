@@ -1,4 +1,4 @@
-package net.seleucus.wsp.crypto;
+package main.java.net.seleucus.wsp.crypto;
 
 import java.nio.ByteBuffer;
 import java.security.SecureRandom;
@@ -8,7 +8,7 @@ import org.apache.commons.lang3.ArrayUtils;
 
 public final class PassPhraseCrypto extends WebSpaUtils {
 	
-	protected static byte[] getHashedPassPhraseInTimeWithSalt(final CharSequence passPhrase, final long currentTimeMinutes, final byte salt) {
+	public static byte[] getHashedPassPhraseInTimeWithSalt(final CharSequence passPhrase, final long currentTimeMinutes, final byte salt) {
 		
 		byte[] passBytes = passPhrase.toString().getBytes(Charsets.UTF_8);
 		byte[] timeBytes = ByteBuffer.allocate(8).putLong(currentTimeMinutes).array();
@@ -27,7 +27,7 @@ public final class PassPhraseCrypto extends WebSpaUtils {
 		
 	}
 
-	protected static byte[] getHashedPassPhraseNowWithSalt(final CharSequence passPhrase, final byte salt) {
+	public static byte[] getHashedPassPhraseNowWithSalt(final CharSequence passPhrase, final byte salt) {
 		
 		long currentTimeMinutes = System.currentTimeMillis() / (60 * 1000);
 		
@@ -35,7 +35,7 @@ public final class PassPhraseCrypto extends WebSpaUtils {
 
 	}
 
-	protected static byte[] getHashedPassPhraseInTime(final CharSequence passPhrase, final long currentTimeMinutes) {
+	public static byte[] getHashedPassPhraseInTime(final CharSequence passPhrase, final long currentTimeMinutes) {
 		
 		SecureRandom scRandom = new SecureRandom();
 		byte[] randomBytes = new byte[1];
@@ -45,7 +45,7 @@ public final class PassPhraseCrypto extends WebSpaUtils {
 
 	}
 	
-	protected static byte[] getHashedPassPhraseNow(final CharSequence passPhrase) {
+	public static byte[] getHashedPassPhraseNow(final CharSequence passPhrase) {
 
 		long currentTimeMinutes = System.currentTimeMillis() / (60 * 1000);
 		

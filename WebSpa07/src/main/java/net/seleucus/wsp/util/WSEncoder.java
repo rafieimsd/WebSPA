@@ -1,4 +1,4 @@
-package net.seleucus.wsp.util;
+package main.java.net.seleucus.wsp.util;
 
 import org.apache.commons.codec.DecoderException;
 import org.apache.commons.codec.binary.Base64;

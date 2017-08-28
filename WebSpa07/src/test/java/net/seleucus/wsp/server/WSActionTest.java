@@ -1,10 +1,12 @@
-package net.seleucus.wsp.server;
+package test.java.net.seleucus.wsp.server;
 
 import static org.junit.Assert.*;
 
 import java.io.File;
 
-import net.seleucus.wsp.main.WebSpa;
+import main.java.net.seleucus.wsp.main.WebSpa;
+import main.java.net.seleucus.wsp.server.WSAction;
+import main.java.net.seleucus.wsp.server.WSServer;
 
 import org.junit.After;
 import org.junit.Before;

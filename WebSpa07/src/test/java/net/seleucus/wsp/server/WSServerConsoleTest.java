@@ -1,4 +1,4 @@
-package net.seleucus.wsp.server;
+package test.java.net.seleucus.wsp.server;
 
 import static org.junit.Assert.assertTrue;
 
@@ -6,7 +6,9 @@ import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.PrintStream;
 
-import net.seleucus.wsp.main.WebSpa;
+import main.java.net.seleucus.wsp.main.WebSpa;
+import main.java.net.seleucus.wsp.server.WSServer;
+import main.java.net.seleucus.wsp.server.WSServerConsole;
 
 import org.junit.After;
 import org.junit.Before;

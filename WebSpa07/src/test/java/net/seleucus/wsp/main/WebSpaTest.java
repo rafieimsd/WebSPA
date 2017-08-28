@@ -1,5 +1,6 @@
-package net.seleucus.wsp.main;
+package test.java.net.seleucus.wsp.main;
 
+import main.java.net.seleucus.wsp.main.WebSpa;
 import static org.junit.Assert.assertEquals;
 
 import org.apache.commons.lang3.ArrayUtils;

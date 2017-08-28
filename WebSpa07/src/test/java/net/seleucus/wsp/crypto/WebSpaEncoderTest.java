@@ -1,5 +1,8 @@
-package net.seleucus.wsp.crypto;
+package test.java.net.seleucus.wsp.crypto;
 
+import main.java.net.seleucus.wsp.crypto.ActionNumberCrypto;
+import main.java.net.seleucus.wsp.crypto.PassPhraseCrypto;
+import main.java.net.seleucus.wsp.crypto.WebSpaEncoder;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;

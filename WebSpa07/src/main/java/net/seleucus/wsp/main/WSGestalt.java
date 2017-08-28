@@ -1,4 +1,4 @@
-package net.seleucus.wsp.main;
+package main.java.net.seleucus.wsp.main;
 
 import java.io.Console;
 import java.nio.CharBuffer;

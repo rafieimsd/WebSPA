@@ -1,32 +1,32 @@
-package net.seleucus.wsp.server;
+package main.java.net.seleucus.wsp.server;
 
 
 import java.util.ArrayList;
 
-import net.seleucus.wsp.server.commands.WSActionAdd;
-import net.seleucus.wsp.server.commands.WSActionShow;
-import net.seleucus.wsp.server.commands.WSCommandOption;
-import net.seleucus.wsp.server.commands.WSConfigShow;
-import net.seleucus.wsp.server.commands.WSHelpOptions;
-import net.seleucus.wsp.server.commands.WSPassPhraseModify;
-import net.seleucus.wsp.server.commands.WSPassPhraseShow;
-import net.seleucus.wsp.server.commands.WSServiceStart;
-import net.seleucus.wsp.server.commands.WSServiceStatus;
-import net.seleucus.wsp.server.commands.WSServiceStop;
-import net.seleucus.wsp.server.commands.WSUserActivate;
-import net.seleucus.wsp.server.commands.WSUserAdd;
-import net.seleucus.wsp.server.commands.WSUserShow;
+import main.java.net.seleucus.wsp.server.commands.WSActionAdd;
+import main.java.net.seleucus.wsp.server.commands.WSActionShow;
+import main.java.net.seleucus.wsp.server.commands.WSCommandOption;
+import main.java.net.seleucus.wsp.server.commands.WSConfigShow;
+import main.java.net.seleucus.wsp.server.commands.WSHelpOptions;
+import main.java.net.seleucus.wsp.server.commands.WSPassPhraseModify;
+import main.java.net.seleucus.wsp.server.commands.WSPassPhraseShow;
+import main.java.net.seleucus.wsp.server.commands.WSServiceStart;
+import main.java.net.seleucus.wsp.server.commands.WSServiceStatus;
+import main.java.net.seleucus.wsp.server.commands.WSServiceStop;
+import main.java.net.seleucus.wsp.server.commands.WSUserActivate;
+import main.java.net.seleucus.wsp.server.commands.WSUserAdd;
+import main.java.net.seleucus.wsp.server.commands.WSUserShow;
 
 
 public class WSServerConsole {
 
-	protected static final String UNKNOWN_CMD_MESSAGE = 
+	public static final String UNKNOWN_CMD_MESSAGE = 
 			"\nUnknown command - type \"help\" for more options\n";
 	
 	private WSServer myServer;
 	private ArrayList<WSCommandOption> commands;
 	
-	protected WSServerConsole(WSServer myServer) {
+	public WSServerConsole(WSServer myServer) {
 		
 		this.commands = new ArrayList<WSCommandOption>();
         this.myServer = myServer;

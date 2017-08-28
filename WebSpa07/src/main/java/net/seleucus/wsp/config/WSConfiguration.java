@@ -1,4 +1,4 @@
-package net.seleucus.wsp.config;
+package main.java.net.seleucus.wsp.config;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -6,13 +6,13 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.Properties;
 
-import net.seleucus.wsp.util.WSConstants;
+import main.java.net.seleucus.wsp.util.WSConstants;
 
 import org.apache.commons.io.FileUtils;
 
 public class WSConfiguration {
 
-	protected static final String CONFIG_PATH = "webspa-config.properties";
+	public static final String CONFIG_PATH = "webspa-config.properties";
 
 	private Properties configProperties;
 	

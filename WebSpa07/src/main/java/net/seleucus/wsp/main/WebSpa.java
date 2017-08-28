@@ -1,13 +1,13 @@
-package net.seleucus.wsp.main;
+package main.java.net.seleucus.wsp.main;
 
 import java.io.Console;
 
-import net.seleucus.wsp.client.WSClient;
-import net.seleucus.wsp.server.WSServer;
+import main.java.net.seleucus.wsp.client.WSClient;
+import main.java.net.seleucus.wsp.server.WSServer;
 
 public class WebSpa {
 
-	protected static final String[] ALLOWED_FIRST_PARAM = {"-help", "-client", "-server", "-version"};
+	public static final String[] ALLOWED_FIRST_PARAM = {"-help", "-client", "-server", "-version"};
 	
 	private Console myConsole;
 	

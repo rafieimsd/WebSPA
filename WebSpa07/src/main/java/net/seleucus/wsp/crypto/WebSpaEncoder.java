@@ -1,4 +1,4 @@
-package net.seleucus.wsp.crypto;
+package main.java.net.seleucus.wsp.crypto;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package net.seleucus.wsp.server.commands;
+package main.java.net.seleucus.wsp.server.commands;
 
 import java.io.BufferedReader;
 import java.io.DataInputStream;
@@ -9,7 +9,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
-import net.seleucus.wsp.server.WSServer;
+import main.java.net.seleucus.wsp.server.WSServer;
 
 import org.apache.commons.io.IOUtils;
 
@@ -28,7 +28,7 @@ public class WSHelpOptions extends WSCommandOption {
 	}
 
 	@Override
-	protected void execute() {
+	public void execute() {
 		
 		final int MAX_CHARS = 4096;
 		
@@ -94,7 +94,7 @@ public class WSHelpOptions extends WSCommandOption {
 	} // handle method
 
 	@Override
-	protected boolean isValid(final String cmd) {
+	public boolean isValid(final String cmd) {
 		
 		boolean valid = false;
 		
