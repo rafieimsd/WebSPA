@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/masoud/NetBeansProjects/git/WebSpa07/src/test/java/net/seleucus/wsp/db/WSPassPhrasesTest.java</file>
+            <file>file:/home/masoud/NetBeansProjects/git/WebSpa07/nbproject/build-impl.xml</file>
+            <file>file:/home/masoud/NetBeansProjects/git/WebSpa07/src/test/java/net/seleucus/wsp/util/WSEncoderTest.java</file>
+            <file>file:/home/masoud/NetBeansProjects/git/WebSpa07/src/test/java/net/seleucus/wsp/main/WebSpaTest.java</file>
+            <file>file:/home/masoud/NetBeansProjects/git/WebSpa07/src/test/java/net/seleucus/wsp/crypto/WebSpaEncoderTest.java</file>
+            <file>file:/home/masoud/NetBeansProjects/git/WebSpa07/src/main/java/net/seleucus/wsp/server/WSServerConsole.java</file>
+            <file>file:/home/masoud/NetBeansProjects/git/WebSpa07/src/main/java/net/seleucus/wsp/client/WSClient.java</file>
+            <file>file:/home/masoud/NetBeansProjects/git/WebSpa07/src/main/java/net/seleucus/wsp/db/WSDatabase.java</file>
+            <file>file:/home/masoud/NetBeansProjects/git/WebSpa07/src/test/java/net/seleucus/wsp/server/WSServerConsoleTest.java</file>
+            <file>file:/home/masoud/NetBeansProjects/git/WebSpa07/src/test/java/net/seleucus/wsp/server/commands/WSUserShowTest.java</file>
+            <file>file:/home/masoud/NetBeansProjects/git/WebSpa07/src/test/java/net/seleucus/wsp/crypto/ActionNumberCryptoTest.java</file>
+            <file>file:/home/masoud/NetBeansProjects/git/WebSpa07/src/test/java/net/seleucus/wsp/server/commands/WSHelpOptionsTest.java</file>
+            <file>file:/home/masoud/NetBeansProjects/git/WebSpa07/src/main/java/net/seleucus/wsp/main/WebSpa.java</file>
+            <file>file:/home/masoud/NetBeansProjects/git/WebSpa07/src/main/java/net/seleucus/wsp/server/commands/WSCommandOption.java</file>
+            <file>file:/home/masoud/NetBeansProjects/git/WebSpa07/src/test/java/net/seleucus/wsp/server/commands/WSServiceStopTest.java</file>
+            <file>file:/home/masoud/NetBeansProjects/git/WebSpa07/src/test/java/net/seleucus/wsp/crypto/PassPhraseCryptoTest.java</file>
+            <file>file:/home/masoud/NetBeansProjects/git/WebSpa07/src/test/java/net/seleucus/wsp/util/WSConstantsTest.java</file>
+            <file>file:/home/masoud/NetBeansProjects/git/WebSpa07/src/main/java/net/seleucus/wsp/server/WSLogListener.java</file>
+            <file>file:/home/masoud/NetBeansProjects/git/WebSpa07/src/test/java/net/seleucus/wsp/server/WSActionTest.java</file>
+            <file>file:/home/masoud/NetBeansProjects/git/WebSpa07/src/main/java/net/seleucus/wsp/server/WSAction.java</file>
+            <file>file:/home/masoud/NetBeansProjects/git/WebSpa07/src/main/java/net/seleucus/wsp/server/commands/WSActionAdd.java</file>
+            <file>file:/home/masoud/NetBeansProjects/git/WebSpa07/src/main/java/net/seleucus/wsp/db/WSActionsAvailable.java</file>
+            <file>file:/home/masoud/NetBeansProjects/git/WebSpa07/src/test/java/net/seleucus/wsp/client/WSConnectionTest.java</file>
+            <file>file:/home/masoud/NetBeansProjects/git/WebSpa07/src/test/java/net/seleucus/wsp/crypto/WebSpaUtilsTest.java</file>
+            <file>file:/home/masoud/NetBeansProjects/git/WebSpa07/src/main/java/net/seleucus/wsp/client/WSConnection.java</file>
+            <file>file:/home/masoud/NetBeansProjects/git/WebSpa07/src/test/java/net/seleucus/wsp/db/WSDatabaseTest.java</file>
+            <file>file:/home/masoud/NetBeansProjects/git/WebSpa07/src/main/java/net/seleucus/wsp/server/WSServer.java</file>
+            <file>file:/home/masoud/NetBeansProjects/git/WebSpa07/src/test/java/net/seleucus/wsp/main/WSVersionTest.java</file>
+            <file>file:/home/masoud/NetBeansProjects/git/WebSpa07/src/test/java/net/seleucus/wsp/config/WSConfigurationTest.java</file>
+        </group>
+    </open-files>
+</project-private>
