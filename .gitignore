@@ -1,2 +1,27 @@
+<<<<<<< HEAD
 /WebSpa07/build/
 /WebSpa07/dist/
+=======
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+>>>>>>> 81f3ba331eecac1be3fbf1543c31d8e242d4ef91
