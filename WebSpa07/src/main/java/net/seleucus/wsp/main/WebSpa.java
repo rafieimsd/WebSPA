@@ -47,7 +47,7 @@ public class WebSpa {
 	}
 	
 	public static void main(String[] args) throws Exception {
-//test git 2
+//test git 2+2
 		final Console myConsole = System.console();
 		if(myConsole == null) {
 			System.err.println("Could not get console; will exit now...");
