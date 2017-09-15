@@ -6,7 +6,7 @@ import main.java.net.seleucus.wsp.client.WSClient;
 import main.java.net.seleucus.wsp.server.WSServer;
 
 public class WebSpa {
-
+//back
 	public static final String[] ALLOWED_FIRST_PARAM = {"-help", "-client", "-server", "-version"};
 	
 	private Console myConsole;
